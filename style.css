@@ -43,3 +43,62 @@ html {
 .ourStory__item {
     text-transform: uppercase;
 }
+
+.amazingTeam {
+    text-align: center;
+    background-color: lightblue
+}
+.amazingTeam__head {
+}
+.amazingTeam__para {
+}
+.amazingTeam__line {
+height: 2px;
+background-color: teal;
+width: 50px;
+margin: 0.5rem auto;
+
+}
+.amazingTeam-flex {
+display: flex;
+gap: 10px;
+margin: 0 auto;
+justify-content: center;
+}
+.amazingTeam-flex__card {
+
+border: 1px black solid;
+}
+.amazingTeam-flex__card img {
+    height: 200px;
+    width: 180px;
+}
+.amazingTeam__para2 {
+
+}
+.amazingTeam__button {
+
+}
+
+.goodNews {
+    display: flex;
+    background-color: lightgrey;
+}
+
+.goodNews__box {
+width: 50%;
+}    
+.goodNews__form {
+   display: flex; 
+   flex-direction: column;
+}
+
+.goodNews__client {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px
+}
+
+.goodNews__client img {
+    max-width: 100px;
+}
