@@ -30,3 +30,16 @@ html {
     list-style: none;
     text-transform: uppercase;
 }
+
+.ourStory {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: navy;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourStory__item {
+    text-transform: uppercase;
+}
