@@ -75,3 +75,25 @@
     margin-top: 1.5rem;
     font-size: 1rem;
   }
+
+  .goodNews {
+    display: flex;
+}
+
+.goodNews__box {
+width: 50%;
+}    
+.goodNews__form {
+   display: flex; 
+   flex-direction: column;
+}
+
+.goodNews__client {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px
+}
+
+.goodNews__client img {
+    max-width: 100px;
+}
