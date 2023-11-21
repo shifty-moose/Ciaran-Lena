@@ -7,6 +7,21 @@ body, html {
     height: 100%;
 }
 
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+h2 {
+    font-family: serif;
+    font-weight: 100;
+    color: rgb(68, 68, 68);
+  }
+
+h5 {
+    font-family: serif;
+}
+  
+
 header {
     width: 100%;
     background-color: rgb(41,	41,	74)	;
@@ -35,17 +50,90 @@ header {
 .heroHeading {
     padding-bottom: 30px;
     margin-bottom: 30px;
-    border-bottom: 2px solid cyan;
+    border-bottom: 2px solid rgb(93, 213, 198);
 }
 
 .learnMoreButton {
-    border: 2px solid cyan;
+    border: 2px solid rgb(93, 213, 198);	
     padding: 8px;
     margin-top: 30px;
+    color: rgb(93, 213, 198);	
+    padding: 8px;
+    text-align: center;
+    width: 120px;
+    text-emphasis-style: lighter;
+    font-weight: 100;
 }
 
 #ourStory {
-    border: 2px greenyellow solid;
     display: flex;
-    align-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 120px auto;
+}
+
+#ourStory p {
+    color: rgb(82, 82, 82);
+}
+
+
+#bigTajamLogo {
+    margin-right: 60px;
+}
+
+
+
+#ourStoryMedia, #amazingTeam {
+    height: 100px ;
+    background-color: rgb(41,	41,	74)	;
+    margin-bottom: 80px;
+    
+}
+
+#expertise {
+    margin-bottom: 120px;
+}
+
+#expertiseHeader {
+    text-align: center;
+    margin: auto 120px;
+    margin-bottom: 60px;
+}
+
+#expertiseHeader * {
+    padding: 12px;
+}
+
+#expertiseGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.expertiseSquare {
+    width: 300px;
+    height: 300px;
+    border: 1px rgb(232, 232, 232) solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.expertiseSquare * {
+    padding: 12px;
+    
+}
+
+.expertiseSquare h4 {
+    font-size: smaller;
+}
+
+.expertiseSquare p {
+    font-size: smaller;
+}
+
+.expertiseIcon {
+    height: 30%;
+    margin-top: 10%;
 }
