@@ -113,7 +113,7 @@ header {
     padding: 1px 15px 15px 15px;
   }
   
-  .amazingTeam__button {
+  .amazingTeam__button, .goodNews__button {
     color: #63d1c7;
     border: 1px #63d1c7 solid;
     background-color: transparent;
@@ -123,3 +123,64 @@ header {
     margin-top: 1.5rem;
     font-size: 1rem;
   }
+
+  .goodNews {
+    display: flex;
+    width: 765px;
+    margin: 0 auto;
+    padding: 4rem;
+    margin-bottom: 600px;
+    justify-content: space-between;
+}
+
+.goodNews__head {
+  text-transform: uppercase;
+    padding-bottom: 0.4rem;
+}
+
+.goodNews__head--client {
+    padding-left: 1rem;
+    padding-bottom: 1.2rem;
+}
+
+.goodNews__box--half-width {
+width: 50%;
+}
+
+
+.goodNews__form {
+   display: flex; 
+   flex-direction: column;   
+}
+
+.goodNews__form > input, textarea {
+  height: 2rem;
+  border: 1px lightgrey solid;
+  color: grey;
+  padding: 0.2rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.goodNews__form > textarea {
+font-family: sans-serif;
+padding-top: 0.7rem;
+height: 150px;
+}
+
+.goodNews__button {
+  margin-right: auto;
+}
+
+.goodNews__client {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px
+}
+
+.goodNews__client img {
+    max-width: 130px;
+    padding: 0.5rem 1rem;
+    margin-top: auto;
+}
+
