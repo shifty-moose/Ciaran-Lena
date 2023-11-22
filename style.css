@@ -5,8 +5,7 @@
 
 body, html {
     height: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -61,8 +60,8 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
     text-decoration: none;
     padding: 0px 8px;
     color: white;
-    font-weight: 600;
     font-size: 0.7rem;
+    font-weight: 600;
 }
 
 #navBar a:hover {
@@ -100,7 +99,7 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
 }
 
 .heroText {
-    font-size: 0.70rem;
+    font-size: 0.75rem;
     width: 48%;
     font-weight: 100;
     line-height: 2;
@@ -141,7 +140,7 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
 
 #ourStory p {
     color: rgb(82, 82, 82);
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     line-height: 1.8;
 }
 
@@ -150,23 +149,17 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
     margin-right: 80px;
 }
 
+/* CONTAINER FOR EXPERTISE DIV */
 
-
-#ourStoryMedia, #amazingTeam {
-    height: 100px ;
-    background-color: rgb(41,	41,	74)	;
-    margin-bottom: 80px;
-    
-}
-
-#expertise {
+#expertise { /* MAIN DIV */
     margin-bottom: 120px;
+    margin-top: 40px;
 }
 
 #expertiseHeader {
     text-align: center;
     margin: auto 120px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 #expertiseHeader * {
@@ -187,6 +180,7 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
     border: 1px rgb(232, 232, 232) solid;
     text-align: center;
     border-collapse: collapse;
+    padding: 8px;
 }
 
 .expertiseSquare * {
@@ -195,16 +189,18 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
 }
 
 .expertiseSquare h4 {
-    font-size: smaller;
+    font-size: 0.8rem;
+    font-weight: 800;
 }
 
 .expertiseSquare p {
-    font-size: smaller;
+    line-height: 1.5;
+    font-size: 0.8rem;
 }
 
 .expertiseIcon {
-    height: 30%;
-    margin-top: 10%;
+    height: 20%;
+    margin-top: 12%;
     align-content: center;
 }
 
@@ -268,7 +264,8 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
     border: 1px #63d1c7 solid;
     background-color: transparent;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
     padding: 10px 15px;
     margin-top: 1.5rem;
     font-size: 1rem;
