@@ -183,3 +183,18 @@ height: 150px;
     margin-top: auto;
 }
 
+.ourStory {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  background-image: url(./design-assets/bgk-middle.png);
+  justify-content: center;
+  align-items: center;
+}
+
+.ourStory__item {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  padding: 0.7rem;
+}
