@@ -198,3 +198,43 @@ height: 150px;
   font-weight: bold;
   padding: 0.7rem;
 }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+.footer__item--1 {
+  grid-area: 1/1/2/2;
+  background-color: red;
+}
+
+.footer__item--2 {
+  grid-area: 2/1/3/2;
+  background-color: blue;
+}
+.footer__item--3 {
+  grid-area: 1/2/2/3;
+  background-color: yellow
+}
+.footer__item--4 {
+  grid-area: 2/2/3/3;
+  background-color: green
+}
+.footer__item--5 {
+  grid-area: 3/1/4/2;
+  background-color: fuchsia
+}
+.footer__item--6 {
+  grid-area: 1/1/1/1;
+  background-color: darksalmon
+}
+.footer__item--7 {
+  grid-area: 1/1/1/1;
+  background-color: chocolate
+}
+.footer__item--8 {
+  grid-area: 1/1/1/1;
+  background-color: greenyellow
+}
