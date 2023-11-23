@@ -376,3 +376,123 @@ height: 150px;
     }
 
 }
+
+/* FOOTER ELEMENTS */
+
+.footer {
+    background-image: url(./design-assets/bgk-footer.png);
+    background-size: cover;
+}
+.footer p {
+    color: white;
+    font-size: 0.7rem;
+    line-height: 1.7;
+}
+
+.footer h3 {
+    margin-top: 15px;
+}
+
+.footer__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    }    
+
+
+
+.footer__item a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer__item a:hover{
+    text-decoration: underline;
+}
+
+.footer__item h3 {
+    color: white;
+    font-size: 1rem;
+}
+
+
+.footer__input {
+  padding: 0;  
+  height: 2rem;
+  border: 1px rgba(255, 255, 255, 0.7) solid;
+  color: white;
+  opacity:0.7;
+  padding: 0.1rem .7rem;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.footer__button {
+    color: white;
+    opacity:0.7;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-size: 1rem;
+    border: none;
+}
+
+@media screen and (min-width:765px) {
+    .footer__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        width: 765px;
+        margin: 0 auto;
+        padding: 3rem;
+        gap: 13px;
+        text-align: left;
+    }
+
+.footer__item--1 {
+  grid-area: 1/1/2/2;
+  display: flex;
+  align-items: center;
+
+}
+
+.footer__item--2 {
+  grid-area: 2/1/3/2;
+
+}
+.footer__item--3 {
+  grid-area: 1/2/2/3;
+
+}
+.footer__item--4 {
+  grid-area: 2/2/3/3;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+
+}
+.footer__item--5 {
+  grid-area: 1/3/2/4;
+}
+.footer__item--6 {
+  grid-area: 2/3/3/4;
+}
+.footer__item--7 {
+  grid-area: 3/1/4/3;
+  display: flex;
+  gap: 20px;
+  margin-top: 1.5rem;
+  
+}
+.footer__item--8 {
+    grid-area: 3/3/4/4;
+    text-align: right;
+    margin-top: 1.5rem;
+}
+}
