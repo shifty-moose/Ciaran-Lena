@@ -645,8 +645,6 @@ margin-bottom: 4rem;
   padding: 0.7rem;
 }
 
-/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
-
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     .amazingTeam-flex {
@@ -695,9 +693,17 @@ margin-bottom: 4rem;
     font-size: 1rem;
 }
 
+.footer__subscribe {
+    display: flex;
+    height: 2.4rem;
+    gap: 15px;
+    margin-bottom: 20px;
+   
+}
+
 .footer__input {
   padding: 0;  
-  height: 2rem;
+  height: 2.4rem;
   border: 1px rgba(255, 255, 255, 0.7) solid;
   color: white;
   opacity:0.7;
@@ -705,7 +711,8 @@ margin-bottom: 4rem;
   font-size: 0.7rem;
   margin-bottom: 1rem;
   background-color: transparent;
-  font-family: 'Roboto', sans-serif
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
 .footer__button {
@@ -717,7 +724,9 @@ margin-bottom: 4rem;
     padding: 5px 15px;
     font-size: 1rem;
     border: none;
+    
 }
+
 
 p.footer__tajam {
     color: rgb(93, 213, 198);
