@@ -1,113 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Josefin+Sans:ital@1&family=Roboto:ital,wght@0,100;1,300&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>tajam</title>
-</head>
+  </head>
 
-<body>
-
-    <header>
-        <nav>
-            <a href="">HOME</a>
-            <a href="">ABOUT</a>
-            <a href="">EXPERTISE</a>
-            <a href="">TEAMS</a>
-            <a href="">WORKS</a>
-            <a href="">PEOPLE SAY</a>
-            <a href="">CONTACT</a>
-
-        </nav>
-
-    </header>
-
-    <section id="heroImage"> 
-
-        <div id="heroInfo">
-            <h1 class="heroHeading">We Are Awesome Creative Agency</h1>
-
-            <p class="heroText">This is Photoshop's version of Lorem Ipsum. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Venenatis lectus magna fringilla urna porttitor rhoncus. Justo laoreet sit amet cursus sit amet. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis.</p>
-        
-            <h4 class="learnMoreButton">LEARN MORE</h4>
+  <body>
+    <section id="heroImage">
+      <header>
+        <div id="navImg">
+          <img src="design-assets/png/logo.png" alt="" />
+          <h6>tajam</h6>
         </div>
+
+        <nav id="navBar">
+          <a href="index.html" style="color: rgb(93, 213, 198)">HOME</a>
+          <a href="">ABOUT</a>
+          <a href="">EXPERTISE</a>
+          <a href="">TEAMS</a>
+          <a href="">WORKS</a>
+          <a href="">PEOPLE SAY</a>
+          <a href="">CONTACT</a>
+        </nav>
+      </header>
+
+      <div id="heroInfo">
+        <h1 class="heroHeading">We Are Awesome Creative Agency</h1>
+        <div id="lineDiv"></div>
+        <p class="heroText">
+          This is Photoshop's version of Lorem Ipsum. Consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Venenatis lectus magna fringilla urna porttitor rhoncus. Justo
+          laoreet sit amet cursus sit amet. Dolor sed viverra ipsum nunc aliquet
+          bibendum enim facilisis.
+        </p>
+
+        <a href="#ourStory"><h4 class="learnMoreButton">LEARN MORE</h4></a>
+      </div>
     </section>
 
     <div class="pageDiv" id="ourStory">
+      <div id="bigTajamLogo">
+        <img src="design-assets/png/logo-big.png" alt="big tajam logo" />
+      </div>
 
-        <div>
-            <img src="design-assets/png/logo-big.png" alt="big tajam logo">
-        </div>
-        
-        <div id="outStoryText">
-            <h2>OUR STORY</h2>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate ut pharetra sit amet aliquam id. Mauris ultrices eros in cursus turpis massa tincidunt. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis.
-            </p> <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate ut pharetra sit amet aliquam id. Mauris ultrices eros in cursus turpis massa tincidunt. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis.
-            </p> 
-            <h4 class="learnMoreButton">LEARN MORE</h4>
-        </div>
+      <div id="ourStoryText">
+        <h2>OUR STORY</h2>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do putate
+          ut pharetra sit amet aliquam id. Mauris ultrices eros in cursus turpis
+          massa tincidunt. Dolor sed viverra ipsum nunc aliquet bibendum enim
+          facilisis.
+        </p>
+        <br />
+        <p>
+          Eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate
+          ut pharetra sit amet aliquam. massa tincidunt. Dolor sed viverra ipsum
+          nunc aliquet.
+        </p>
+        <h4 class="learnMoreButton">LEARN MORE</h4>
+      </div>
     </div>
 
     <div class="pageDiv ourStory" id="ourStoryMedia">
-      <a href="https://c.tenor.com/uhnVFBgGehUAAAAC/tenor.gif" target="_blank"><img
-        class="ourStory__item"
-        src="./design-assets/png/play.png"
-        alt="play"
+      <a href="https://c.tenor.com/uhnVFBgGehUAAAAC/tenor.gif" target="_blank"
+        ><img
+          class="ourStory__item"
+          src="./design-assets/png/play.png"
+          alt="play"
       /></a>
       <p class="ourStory__item">Watch our Story</p>
     </div>
 
     <div class="pageDiv" id="expertise">
+      <div id="expertiseHeader">
+        <h2>EXPERTISE</h2>
+        <h5>Lorem ipsum dolor sit amet proin gravida nibbh vel velit</h5>
+      </div>
 
-        <div id="expertiseHeader">
-            <h2>EXPERTISE</h2>
-            <h3>Lorem ipsum dolor sit amet proin gravida nibbh vel velit</h3>
+      <div id="expertiseGrid">
+        <div class="expertiseSquare" id="expertiseWebDev">
+          <img
+            class="expertiseIcon"
+            src="design-assets/svg/screen.svg"
+            alt="screen icon"
+          />
+          <h4>WEB DESIGN & DEVELOPMENT</h4>
+          <p>
+            This is photoshop's version of Lorem Ipsum. Quandidolor sit amet
+            proin gravida nibbh vel velit.
+          </p>
         </div>
 
-        <div id="expertiseGrid">
-
-            <div class="expertiseSquare" id="expertiseWebDev">
-                <img class="expertiseIcon" src="design-assets/svg/screen.svg" alt="screen icon">
-                <h4>WEB DESIGN & DEVELOPMENT</h4>
-                <p>This is photoshop's version of Lorem Ipsum. Quandidolor sit amet proin gravida nibbh vel velit.</p>
-            </div>
-
-            <div class="expertiseSquare" id="expertiseBranding">
-                <img class="expertiseIcon" src="design-assets/svg/pen.svg" alt="bruch icon">
-                <h4>BRANDING IDENTITY</h4>
-                <p>This is photoshop's version of Lorem Ipsum. Quandidolor sit amet proin gravida nibbh vel velit.</p>
-            </div>
-
-            <div class="expertiseSquare" id="expertiseMobile">
-                <img class="expertiseIcon" src="design-assets/svg/mobile.svg" alt="phone icon">
-                <h4>MOBILE APP</h4>
-                <p>This is photoshop's version of Lorem Ipsum. Quandidolor sit amet proin gravida nibbh vel velit.</p>
-            </div>
-
-            <div class="expertiseSquare" id="expertiseSearch">
-                <img class="expertiseIcon" src="design-assets/svg/graph.svg" alt="chart icon">
-                <h4>SEARCH ENGINE OPTIMISATION</h4>
-                <p>This is photoshop's version of Lorem Ipsum. Quandidolor sit amet proin gravida nibbh vel velit.</p>
-            </div>
-
-            <div class="expertiseSquare" id="expertiseGaming">
-                <img class="expertiseIcon" src="design-assets/svg/gameboy.svg" alt="gameboy icon">
-                <h4>GAME DEVELOPMENT</h4>
-                <p>This is photoshop's version of Lorem Ipsum. Quandidolor sit amet proin gravida nibbh vel velit.</p>
-            </div>
-
-            <div class="expertiseSquare" id="expertiseLove">
-                <img class="expertiseIcon" src="design-assets/svg/heart.svg" alt="heart icon">
-                <h4>MADE WITH LOVE</h4>
-                <p>This is photoshop's version of Lorem Ipsum. Quandidolor sit amet proin gravida nibbh vel velit.</p>
-            </div>
-
+        <div class="expertiseSquare" id="expertiseBranding">
+          <img
+            class="expertiseIcon"
+            src="design-assets/svg/pen.svg"
+            alt="bruch icon"
+          />
+          <h4>BRANDING IDENTITY</h4>
+          <p>
+            This is photoshop's version of Lorem Ipsum. Quandidolor sit amet
+            proin gravida nibbh vel velit.
+          </p>
         </div>
 
+        <div class="expertiseSquare" id="expertiseMobile">
+          <img
+            class="expertiseIcon"
+            src="design-assets/svg/mobile.svg"
+            alt="phone icon"
+          />
+          <h4>MOBILE APP</h4>
+          <p>
+            This is photoshop's version of Lorem Ipsum. Quandidolor sit amet
+            proin gravida nibbh vel velit.
+          </p>
+        </div>
+
+        <div class="expertiseSquare" id="expertiseSearch">
+          <img
+            class="expertiseIcon"
+            src="design-assets/svg/graph.svg"
+            alt="chart icon"
+          />
+          <h4>SEARCH ENGINE OPTIMISATION</h4>
+          <p>
+            This is photoshop's version of Lorem Ipsum. Quandidolor sit amet
+            proin gravida nibbh vel velit.
+          </p>
+        </div>
+
+        <div class="expertiseSquare" id="expertiseGaming">
+          <img
+            class="expertiseIcon"
+            src="design-assets/svg/gameboy.svg"
+            alt="gameboy icon"
+          />
+          <h4>GAME DEVELOPMENT</h4>
+          <p>
+            This is photoshop's version of Lorem Ipsum. Quandidolor sit amet
+            proin gravida nibbh vel velit.
+          </p>
+        </div>
+
+        <div class="expertiseSquare" id="expertiseLove">
+          <img
+            class="expertiseIcon"
+            src="design-assets/svg/heart.svg"
+            alt="heart icon"
+          />
+          <h4>MADE WITH LOVE</h4>
+          <p>
+            This is photoshop's version of Lorem Ipsum. Quandidolor sit amet
+            proin gravida nibbh vel velit.
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="pageDiv amazingTeam" id="amazingTeam">
@@ -160,13 +224,12 @@
       <div class="goodNews__box goodNews__box--half-width">
         <h2 class="goodNews__head">Give us a Good News</h2>
         <form class="goodNews__form">
-          
-          <input type="text" id="form-name" placeholder="Name" requires/>
-          
-          <input type="email" id="form-mail" placeholder="E-Mail" required/>
-         
-          <input type="text" id="form-subject" placeholder="Subject" required/>
-          
+          <input type="text" id="form-name" placeholder="Name" requires />
+
+          <input type="email" id="form-mail" placeholder="E-Mail" required />
+
+          <input type="text" id="form-subject" placeholder="Subject" required />
+
           <textarea id="message" placeholder="Your Message"></textarea>
           <button class="goodNews__button">Submit</button>
         </form>
