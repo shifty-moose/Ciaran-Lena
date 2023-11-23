@@ -235,10 +235,14 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
     gap: 15px;
     margin: 40px auto;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
   .amazingTeam-flex__card {
     border: 1px white solid;
+    height: 270px;
+    width: 180px;
   }
   
   .amazingTeam-flex__card img {
@@ -344,4 +348,14 @@ height: 150px;
   color: white;
   font-weight: bold;
   padding: 0.7rem;
+}
+
+/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .amazingTeam-flex {
+        flex-direction: row;
+    }
+
 }
