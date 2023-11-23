@@ -9,6 +9,12 @@ body, html {
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+
 h2 {
     font-family: 'DM Serif Display', serif;
     font-weight: 800;
@@ -448,6 +454,10 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
     padding: 12px;
 }
 
+.expertiseSquare:hover {
+    background-color: #f6f6f661;
+}
+
 .expertiseSquare * {
     padding: 8px;
 }
@@ -475,6 +485,13 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
 }
 
 
+#amazingTeam h5 {
+    font-size: 0.9rem;
+    font-weight: 80;
+    letter-spacing: 1.2px;
+    color: rgb(240, 240, 240);
+    margin-top: 0.5rem;
+}
 
 
 
