@@ -149,6 +149,23 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
     margin-right: 80px;
 }
 
+@media only screen and (max-width: 900px) {
+    #ourStory {
+        flex-direction: column-reverse;  
+        text-align: center;    
+    }
+
+    .learnMoreButton {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #bigTajamLogo {
+        margin-right: 0px;
+        margin-top: 30px;
+    }    
+}
+
 /* CONTAINER FOR EXPERTISE DIV */
 
 #expertise { /* MAIN DIV */
