@@ -443,7 +443,7 @@ height: 150px;
     border: none;
 }
 
-@media screen and (min-width:765px) {
+@media screen and (min-width:820px) {
     .footer__grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
