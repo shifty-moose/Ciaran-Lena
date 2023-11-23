@@ -183,6 +183,10 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
     font-size: 0.75rem;
 }
 
+#heroInfo a {
+    text-decoration: none;
+}
+
 .learnMoreButton:hover {
     background-color: rgba(216, 216, 216, 0.129);
     background-color: rgba(168, 168, 168, 0.129);
@@ -536,16 +540,23 @@ header { /* THE CONTAINER FOR NAVBAR ITEMS */
   }
   
   .amazingTeam__button, .goodNews__button {
-    color: #63d1c7;
-    border: 1px #63d1c7 solid;
+    margin-top: 30px;
+    border: 1px solid rgb(93, 213, 198);	
+    color: rgb(93, 213, 198);	
+    padding: 10px 20px;
+    text-align: center;
+    text-emphasis-style: lighter;
+    font-weight: 800;
+    font-size: 0.75rem;
     background-color: transparent;
     text-transform: uppercase;
-    font-weight: 800;
-    font-family: 'Roboto', sans-serif;
-    padding: 10px 15px;
-    margin-top: 1.5rem;
-    font-size: 1rem;
-  }
+}
+
+.amazingTeam__button:hover, .goodNews__button:hover {
+    background-color: rgba(216, 216, 216, 0.129);
+    background-color: rgba(168, 168, 168, 0.129);
+}
+
 
   /* GOOD NEWS AND CLIENT SECTON */
 
@@ -723,8 +734,12 @@ margin-bottom: 4rem;
     font-weight: bold;
     padding: 5px 15px;
     font-size: 1rem;
-    border: none;
-    
+    border: none; 
+}
+
+.footer__button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
 }
 
 
