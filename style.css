@@ -698,7 +698,7 @@ margin-bottom: 4rem;
     height: 2.4rem;
     gap: 15px;
     margin-bottom: 20px;
-   
+    justify-content: center;
 }
 
 .footer__input {
@@ -752,6 +752,10 @@ p.footer__tajam {
         padding: 3rem;
         gap: 13px;
         text-align: left;
+    }
+
+    .footer__subscribe {
+        justify-content: flex-start;
     }
 
 .footer__item--1 {
