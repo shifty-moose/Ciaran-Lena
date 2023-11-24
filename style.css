@@ -626,12 +626,12 @@ margin-bottom: 4rem;
 .goodNews__client {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
-
+    gap: 20px;
 }
 
 .goodNews__client > img {
-    max-width: 130px;
+    width: 100%;
+    max-width: 120px;
     margin: auto;
 }
 
